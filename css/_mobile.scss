@@ -1,0 +1,15 @@
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    margin: 1rem 0;
+  }
+  
+  .card-a {
+    border-radius: 15px 15px 0 0;
+  }
+
+  .card-c {
+    border-radius: 0 0 15px 15px;
+  }
+}
