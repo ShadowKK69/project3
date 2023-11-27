@@ -66,6 +66,11 @@ h1, button {
   border-radius: 50px;
   cursor: pointer;
   border: 2px solid transparent;
+  
+  &-a { color: $orange; }
+  &-b { color: $cyan; }
+  &-c { color: $dark-cyan; }
+
 
   &-a:hover,
   &-b:hover,
@@ -74,6 +79,7 @@ h1, button {
     background: transparent;
     border: 2px solid white;
   }
+
 }
 
 @import 'mobile';
